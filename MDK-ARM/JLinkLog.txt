@@ -1,0 +1,111 @@
+T6CC8 000:197.087   SEGGER J-Link V7.82 Log File
+T6CC8 000:197.197   DLL Compiled: Oct 13 2022 13:32:51
+T6CC8 000:197.202   Logging started @ 2025-10-14 13:17
+T6CC8 000:197.207 - 197.209ms
+T6CC8 000:197.216 JLINK_SetWarnOutHandler(...)
+T6CC8 000:197.223 - 0.008ms
+T6CC8 000:197.228 JLINK_OpenEx(...)
+T6CC8 000:198.888   Firmware: J-Link V12 compiled Jun 21 2023 09:20:55
+T6CC8 000:199.399   Firmware: J-Link V12 compiled Jun 21 2023 09:20:55
+T6CC8 000:202.880   Hardware: V12.00
+T6CC8 000:202.897   S/N: 941000024
+T6CC8 000:202.904   OEM: SEGGER
+T6CC8 000:202.913   Feature(s): RDI, FlashBP, FlashDL, JFlash, GDB
+T6CC8 000:205.128   USB speed mode: High speed (480 MBit/s)
+T6CC8 000:205.615   TELNET listener socket opened on port 19021
+T6CC8 000:205.718   WEBSRV WEBSRV_Init(): Starting webserver thread(s)
+T6CC8 000:205.855   WEBSRV Webserver running on local port 19080
+T6CC8 000:210.705 - 13.491ms returns "O.K."
+T6CC8 000:210.742 JLINK_GetEmuCaps()
+T6CC8 000:210.748 - 0.008ms returns 0xB9FF7BBF
+T6CC8 000:210.755 JLINK_TIF_GetAvailable(...)
+T6CC8 000:211.144 - 0.400ms
+T6CC8 000:211.165 JLINK_SetErrorOutHandler(...)
+T6CC8 000:211.170 - 0.007ms
+T6CC8 000:211.196 JLINK_ExecCommand("ProjectFile = "E:\robomaster\гЂал\YAW_new\MDK-ARM\JLinkSettings.ini"", ...). 
+T6CC8 000:218.652 - 7.467ms returns 0x00
+T6CC8 000:218.676 JLINK_ExecCommand("Device = STM32F407IGHx", ...). 
+T6CC8 000:219.043   Device "STM32F407IG" selected.
+T6CC8 000:219.371 - 0.696ms returns 0x00
+T6CC8 000:219.385 JLINK_ExecCommand("DisableConnectionTimeout", ...). 
+T6CC8 000:219.392 - 0.003ms returns 0x01
+T6CC8 000:219.398 JLINK_GetHardwareVersion()
+T6CC8 000:219.404 - 0.007ms returns 120000
+T6CC8 000:219.413 JLINK_GetDLLVersion()
+T6CC8 000:219.417 - 0.007ms returns 78200
+T6CC8 000:219.423 JLINK_GetOEMString(...)
+T6CC8 000:219.429 JLINK_GetFirmwareString(...)
+T6CC8 000:219.434 - 0.007ms
+T6CC8 000:219.441 JLINK_GetDLLVersion()
+T6CC8 000:219.446 - 0.007ms returns 78200
+T6CC8 000:219.451 JLINK_GetCompileDateTime()
+T6CC8 000:219.456 - 0.006ms
+T6CC8 000:219.462 JLINK_GetFirmwareString(...)
+T6CC8 000:219.470 - 0.010ms
+T6CC8 000:219.476 JLINK_GetHardwareVersion()
+T6CC8 000:219.480 - 0.007ms returns 120000
+T6CC8 000:219.487 JLINK_GetSN()
+T6CC8 000:219.491 - 0.007ms returns 941000024
+T6CC8 000:219.497 JLINK_GetOEMString(...)
+T6CC8 000:219.504 JLINK_TIF_Select(JLINKARM_TIF_SWD)
+T6CC8 000:220.935 - 1.437ms returns 0x00
+T6CC8 000:220.946 JLINK_HasError()
+T6CC8 000:220.961 JLINK_SetSpeed(5000)
+T6CC8 000:221.196 - 0.237ms
+T6CC8 000:221.447 JLINK_HasError()
+T6CC8 000:221.456 JLINK_SetResetType(JLINKARM_RESET_TYPE_NORMAL)
+T6CC8 000:221.461 - 0.007ms returns JLINKARM_RESET_TYPE_NORMAL
+T6CC8 000:221.467 JLINK_Reset()
+T6CC8 000:221.866   InitTarget() start
+T6CC8 000:221.877    J-Link Script File: Executing InitTarget()
+T6CC8 000:325.267   Can not attach to CPU. Trying connect under reset.
+T6CC8 000:527.078   RESET (pin 15) high, but should be low. Please check target hardware.
+T6CC8 000:679.767   Connecting to CPU via connect under reset failed.
+T6CC8 000:730.319   InitTarget() end
+T6CC8 000:730.437   Connect failed. Resetting via Reset pin and trying again.
+T6CC8 000:931.156   RESET (pin 15) high, but should be low. Please check target hardware.
+T6CC8 000:992.503   InitTarget() start
+T6CC8 000:992.533    J-Link Script File: Executing InitTarget()
+T6CC8 001:094.677   Can not attach to CPU. Trying connect under reset.
+T6CC8 001:296.439   RESET (pin 15) high, but should be low. Please check target hardware.
+T6CC8 001:449.828   Connecting to CPU via connect under reset failed.
+T6CC8 001:500.276   InitTarget() end
+T6CC8 001:500.321 - 1278.859ms
+T6CC8 001:500.344 JLINK_GetId()
+T6CC8 001:500.780   InitTarget() start
+T6CC8 001:500.795    J-Link Script File: Executing InitTarget()
+T6CC8 001:603.681   Can not attach to CPU. Trying connect under reset.
+T6CC8 001:804.285   RESET (pin 15) high, but should be low. Please check target hardware.
+T6CC8 001:957.634   Connecting to CPU via connect under reset failed.
+T6CC8 002:008.265   InitTarget() end
+T6CC8 002:008.367   Connect failed. Resetting via Reset pin and trying again.
+T6CC8 002:210.503   RESET (pin 15) high, but should be low. Please check target hardware.
+T6CC8 002:271.941   InitTarget() start
+T6CC8 002:271.981    J-Link Script File: Executing InitTarget()
+T6CC8 002:374.643   Can not attach to CPU. Trying connect under reset.
+T6CC8 002:576.001   RESET (pin 15) high, but should be low. Please check target hardware.
+T6CC8 002:729.573   Connecting to CPU via connect under reset failed.
+T6CC8 002:780.437   InitTarget() end
+T6CC8 002:780.495 - 1280.157ms returns 0x00000000
+T6CC8 002:780.528 JLINK_GetId()
+T6CC8 002:780.956   InitTarget() start
+T6CC8 002:781.006    J-Link Script File: Executing InitTarget()
+T6CC8 002:883.806   Can not attach to CPU. Trying connect under reset.
+T6CC8 003:084.924   RESET (pin 15) high, but should be low. Please check target hardware.
+T6CC8 003:237.678   Connecting to CPU via connect under reset failed.
+T6CC8 003:288.022   InitTarget() end
+T6CC8 003:288.071   Connect failed. Resetting via Reset pin and trying again.
+T6CC8 003:489.022   RESET (pin 15) high, but should be low. Please check target hardware.
+T6CC8 003:550.756   InitTarget() start
+T6CC8 003:550.779    J-Link Script File: Executing InitTarget()
+T6CC8 003:653.760   Can not attach to CPU. Trying connect under reset.
+T6CC8 003:855.473   RESET (pin 15) high, but should be low. Please check target hardware.
+T6CC8 004:008.595   Connecting to CPU via connect under reset failed.
+T6CC8 004:059.361   InitTarget() end
+T6CC8 004:059.403 - 1278.880ms returns 0x00000000
+T6CC8 004:065.974 JLINK_GetFirmwareString(...)
+T6CC8 004:065.995 - 0.024ms
+T6CC8 006:382.346 JLINK_Close()
+T6CC8 006:395.610 - 13.283ms
+T6CC8 006:395.632   
+T6CC8 006:395.637   Closed
